@@ -115,10 +115,10 @@ function left()
 
 function right()
 {
-	if(greencar_y <=500)
+	if(greencar_x <=500)
 	{
 	
-	greencar_y = greencar_y + 10;
+	greencar_x = greencar_x + 10;
 	
 	console.log("when right key pressed, x ="+ greencar_x + "y ="+ greencar_y);
 	uploadBackground();
